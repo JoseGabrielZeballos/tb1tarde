@@ -6,9 +6,9 @@ using System.Web;
 
 namespace Tarea.Models
 {
-    public class DataContex:DbContext
+    public class DataContext:DbContext
     {
-        public DataContex() : base("DefaultConnection") 
+        public DataContext() : base("DefaultConnection") 
         {
 
         }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Tarea.Models
+namespace admTarea.Models
 {
     public enum CategoryType
     {
@@ -26,7 +26,7 @@ namespace Tarea.Models
         [EmailAddress]
         public string Email { get; set; }
         [DataType(DataType.Date)]
-        [Display(Name ="Cumpleaños")]
+        [Display(Name = "Cumpleaños")]
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime Birthdate { get; set; }
 
@@ -37,4 +37,5 @@ namespace Tarea.Models
 
 
     }
+
 }

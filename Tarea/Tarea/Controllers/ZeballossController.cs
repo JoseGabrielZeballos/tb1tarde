@@ -14,7 +14,7 @@ namespace Tarea.Controllers
 {
     public class ZeballossController : ApiController
     {
-        private DataContex db = new DataContex();
+        private DataContext db = new DataContext();
 
         // GET: api/Zeballoss
         [Authorize]

@@ -31,7 +31,7 @@ namespace Tarea.Models
         public string Email { get; set; }
         [DataType(DataType.Date)]
         [Display(Name ="Cumpleaños")]
-
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime Birthdate { get; set; }
 
 
